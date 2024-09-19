@@ -6,7 +6,7 @@ function HomeHead() {
   return (
       <>
         <nav className='nav-menu'>
-          <img src={nameIntro}/>
+          <img className='home-heading-image' src={nameIntro}/>
           <ul className='nav-menu-items'>
             <li><div>Home</div></li>
             <li><div>About</div></li>
